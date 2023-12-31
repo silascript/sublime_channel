@@ -105,17 +105,17 @@ function download_by_array(){
 # 测试下载
 
 # 用来存放数据的数组
-f_path="addrs_list.txt"
+# f_path="addrs_list.txt"
 # ads_arr=('')
 # ads_arr=""
 # 读取地址文件
-ads_arr=($(addrs_reader $f_path))
+# ads_arr=($(addrs_reader $f_path))
 
 # echo ${#ads_arr[*]}
 # echo ${ads_arr[0]}
 # echo ${ads_arr[1]}
 
 # 下载
-download_by_array ${ads_arr[*]}
+# download_by_array ${ads_arr[*]}
 
 
